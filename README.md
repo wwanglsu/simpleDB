@@ -3,8 +3,8 @@ simulate the simple database using JavaScript, running on NodeJS.
 
 Support Command Line comminucation with the database.
 
-First Version:
-The database is running on the memory. Support the commands like:
+First Version: \n 
+The database is running on the memory. Support the commands like: \n 
 SET variable value
 GET variable
 NUMEQUALTO value
