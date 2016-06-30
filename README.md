@@ -103,12 +103,13 @@ strength: 100
 projects: 5
 }
 }
+<br>
 The outermost keys 3PillarNoida, 3PillarCluj, 3PillarTimisoara and 3PillarFairfax are analogues to rows.
-‘address’ and ‘details’ are called column families.
-The column-family ‘address’ has columns ‘city’ and ‘pincode’.
-The column-family details’ has columns ‘strength’ and ‘projects’.
+‘address’ and ‘details’ are called column families.<br>
+The column-family ‘address’ has columns ‘city’ and ‘pincode’.<br>
+The column-family details’ has columns ‘strength’ and ‘projects’.<br>
 Columns can be referenced using CloumnFamily.
-
+<br>
 Google’s BigTable, HBase and Cassandra are the most popular column store based databases.
 </h5>
 
