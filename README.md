@@ -19,3 +19,5 @@ ROLLBACK
 END
 
 Second Version, more work will be put on how to make the data more safe when memory crashes. 
+<br><br><hr>
+<h2>Knowledge abot MongoDB<h2>
