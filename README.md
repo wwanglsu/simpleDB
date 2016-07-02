@@ -31,12 +31,12 @@ Second Version, more work will be put on how to make the data more safe when mem
 </ul>
 <br>
 <ul>Main features of MongoDB
-    <li>Ad-hoc queries.(namely "on the fly query",which is a query that cannot be determined prior to the moment the query is issued.<br> e.g. var queryStr="select * from table wherhe id="+myId . It is an entirely different query each time the line code is executed depending on the value of myId. The opposite of an Ad-hoc query <br>is a predefined query like Stored Procedure, where you have created a single query for the entire generalized<br> purpose of selecting fron that table and pass the ID as a variable.)</li>
-    <li>Indexing and Secondary Indexing</li>
-    <li>Replication</li>
-    <li>Sharding (load balancing) {Sharding is a type of database partitioning that seperates very large database <br>into smaller,faster,more easily managed partes. In MongoDB, sharding is a method for distributing data across <br>multiple machines.MongoDB uses sharding to support deployments with very large data sets and <br>high throughput operations.}</li>
-    <li>Map-Reduce Support</li>
-    <li>GridFS (which is the MongoDB specification for storing and retrieving very large files such as images, audio files etc. <br>It is kind of a file system to store files but its data is stored within MongoDB collections.)</li>
+    <li>1. Ad-hoc queries.(namely "on the fly query",which is a query that cannot be determined prior to the moment the query is issued.<br> e.g. var queryStr="select * from table wherhe id="+myId . It is an entirely different query each time the line code is executed depending on the value of myId. The opposite of an Ad-hoc query <br>is a predefined query like Stored Procedure, where you have created a single query for the entire generalized<br> purpose of selecting fron that table and pass the ID as a variable.)</li>
+    <li>2. Indexing and Secondary Indexing</li>
+    <li>3. Replication</li>
+    <li>4. Sharding (load balancing) {Sharding is a type of database partitioning that seperates very large database <br>into smaller,faster,more easily managed partes. In MongoDB, sharding is a method for distributing data across <br>multiple machines.MongoDB uses sharding to support deployments with very large data sets and <br>high throughput operations.}</li>
+    <li>5. Map-Reduce Support</li>
+    <li>6. GridFS (which is the MongoDB specification for storing and retrieving very large files such as images, audio files etc. <br>It is kind of a file system to store files but its data is stored within MongoDB collections.)</li>
 </ul>
 <br>
 <ul>Application of MongoDB
